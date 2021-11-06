@@ -24,3 +24,4 @@ use App\Http\Controllers\NoticiasController;
 // Route::put('/noticias/{noticia}/edit', [NoticiasController::class, 'update']);
 // Route::delete('/noticias/{noticia}', [NoticiasController::class, 'destroy']);
 Route::resource('noticias', NoticiasController::class);
+Route::get('/teste', function () {});
